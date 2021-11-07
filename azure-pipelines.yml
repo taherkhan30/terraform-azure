@@ -1,0 +1,38 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: TerraformInstaller@0
+  inputs:
+    terraformVersion: 'latest'
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'init'
+    backendType: 'azurerm'
+    backendServiceArm: 'Pay-As-You-Go(aa07614d-2c55-4e18-84ca-108abaaa6fcd)'
+    backendAzureRmResourceGroupName: 'tfstate101'
+    backendAzureRmStorageAccountName: 'tfstate1632'
+    backendAzureRmContainerName: 'tfstate'
+    backendAzureRmKey: '/'
+    allowTelemetryCollection: true
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'plan'
+    environmentServiceName: 'Pay-As-You-Go(aa07614d-2c55-4e18-84ca-108abaaa6fcd)'
+    allowTelemetryCollection: false
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'apply'
+    environmentServiceName: 'Pay-As-You-Go(aa07614d-2c55-4e18-84ca-108abaaa6fcd)'
+    allowTelemetryCollection: true

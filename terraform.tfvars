@@ -1,2 +1,2 @@
-resource_group_name = "example-resources"
+rgname = "example-resources"
 location     = "uksouth "

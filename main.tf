@@ -19,13 +19,7 @@ provider "azurerm" {
 }
 
 
-// resource "azurerm_resource_group" "rg" {
-//   name     = "Terraform-RG-PRACTICE"
-//   location = "uksouth"
-
-// }
-
 resource "azurerm_resource_group" "example" {
-  name     = var.RGNAME
+  name     = var.rgname
   location = var.location
 }

@@ -7,13 +7,3 @@ variable "location" {
   type        = string
   description = "location of the resource group"
 }
-
-variable "appserviceplanname" {
-  type        = string
-  description = "service plan name"
-}
-
-variable "appservicename" {
-  type        = string
-  description = "app service name"
-}

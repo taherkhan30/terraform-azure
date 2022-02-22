@@ -1,4 +1,4 @@
-# terraform-azure
+# Terraform-Azure
 
 Learning Terraform for Azure 
 

@@ -10,7 +10,7 @@ Resources to Learn Azure Terraform
 Alan Rodrigues course (Free) 
 https://www.youtube.com/playlist?list=PLLc2nQDXYMHowSZ4Lkq2jnZ0gsJL3ArAw 
 
-Udemy Course by Kalyan Reddy Daida
+Udemy Course by Kalyan Reddy Daida (Free) 
 https://www.udemy.com/course/terraform-on-azure-with-iac-azure-devops-sre-real-world-25-demos 
 
 Terraform Cookbook by Mikael Krief (Paid) 

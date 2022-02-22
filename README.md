@@ -1,10 +1,9 @@
 # Terraform-Azure
 
-Learning Terraform for Azure 
+#Learning Terraform for Azure# 
 
-Contents
+##Contents##
 
-CustomScriptExtension
 
 Resources to Learn Azure Terraform 
 

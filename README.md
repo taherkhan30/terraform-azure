@@ -1,11 +1,9 @@
-#Terraform-Azure-Cheatsheet 
-
-## Azure AD Authorization 
+# Terraform-Azure-Cheatsheet 
 
 
 
 
-## Resources to Learn Azure Terraform 
+### Resources to Learn Azure Terraform 
 
 *  **[Alan Rodrigues course](https://www.youtube.com/playlist?list=PLLc2nQDXYMHowSZ4Lkq2jnZ0gsJL3ArAw )**
 
